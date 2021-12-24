@@ -3,7 +3,7 @@ const initialState = {
     {
       id: 1,
       content: "coding",
-      completed: false,
+      completed: true,
     },
   ],
 };
