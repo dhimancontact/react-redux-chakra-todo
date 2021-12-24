@@ -46,3 +46,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Ref
 https://www.youtube.com/watch?v=q2zpBgve8jg
+https://redux-toolkit.js.org/introduction/getting-started
