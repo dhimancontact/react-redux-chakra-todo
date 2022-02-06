@@ -4,7 +4,7 @@ import todos from "./todos";
 import productReducer from "./productReducer";
 export default combineReducers({
   todos,
-  allproducts: productReducer,
+  allProducts: productReducer,
 });
 
 // created allproducts as alias, can be use as simple too

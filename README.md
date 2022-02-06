@@ -4,3 +4,6 @@ Learn React Redux with Project | Redux Axios REST API Tutorial | React Redux Tut
 
 #third Party Tools or lib
 https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css
+
+#Fake API
+https://fakestoreapi.com/products
