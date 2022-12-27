@@ -1,21 +1,16 @@
-import React from 'react';
-import './App.css';
-import {Switch, Route, NavLink, Redirect} from "react-router-dom";
-import PokemonList from "./containers/PokemonList";
-import Pokemon from "./containers/Pokemon";
-
+import React from "react";
+import { Container, Heading } from "@chakra-ui/react";
+import { AddTodo } from "./components/AddTodo";
+import { TodoList } from "./components/TodoList";
+import { VisibiltyFilter } from "./components/VisibiltyFilter";
 function App() {
   return (
-    <div className="App">
-      <nav>
-        <NavLink to={"/"}>Search</NavLink>
-      </nav>
-      <Switch>
-        <Route path={"/"} exact component={PokemonList} />
-        <Route path={"/pokemon/:pokemon"} exact component={Pokemon} />
-        <Redirect to={"/"} />
-      </Switch>
-    </div>
+    <Container maxWidth="container.sm">
+      <Heading my="4">Todo List</Heading>
+      <AddTodo></AddTodo>
+      <TodoList></TodoList>
+      <VisibiltyFilter></VisibiltyFilter>
+    </Container>
   );
 }
 
