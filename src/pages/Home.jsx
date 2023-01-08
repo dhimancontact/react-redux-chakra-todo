@@ -1,15 +1,14 @@
-import React from 'react'
-import Popular from '../components/Popular'
-import Veggie from '../components/Veggie'
-
+import React from "react";
+import Popular from "../components/Popular";
+import Veggie from "../components/Veggie";
+import { motion } from "framer-motion";
 function Home() {
   return (
-    <div>
+    <motion.div>
       <Popular />
-      <Veggie/>
-    </div>
-  )
+      <Veggie />
+    </motion.div>
+  );
 }
 
-
-export default Home
+export default Home;
