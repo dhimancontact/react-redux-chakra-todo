@@ -1,34 +1,31 @@
-import React from "react";
-import { socialLink } from "../data";
-import PageLinks from "./PageLinks";
-
-function Footer() {
-  return (
-    <footer className="section footer">
-      <PageLinks parentClass="footer-links" childClass="footer-link" />
-
-      <ul className="footer-icons">
-        {socialLink.map((link) => {
-          return (
-            <li key={link.id}>
-              <a
-                href={link.href}
-                target="_blank"
-                rel="noreferrer"
-                className="footer-icon"
-              >
-                <i className={link.icon}></i>
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-      <p className="copyright">
-        copyright &copy; Backroads travel tours company
-        <span id="date">{new Date().getFullYear()}</span> all rights reserved
-      </p>
-    </footer>
-  );
+import React from 'react'
+import styled from 'styled-components'
+const Footer = () => {
+  return <h4>footer</h4>
 }
 
-export default Footer;
+const Wrapper = styled.footer`
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--clr-black);
+  text-align: center;
+  span {
+    color: var(--clr-primary-5);
+  }
+  h5 {
+    color: var(--clr-white);
+    margin: 0.1rem;
+
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.25;
+  }
+  @media (min-width: 776px) {
+    flex-direction: row;
+  }
+`
+
+export default Footer

@@ -1,24 +1,9 @@
-import "./App.css";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import About from "./components/About";
-import Tours from "./components/Tours";
-import Footer from "./components/Footer";
-import Services from "./components/Services";
-import Home from "./components/Home";
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Navbar, Sidebar, Footer } from './components'
 
 function App() {
-  return (
-    <>
-      {/* <Navbar />
-      <Hero />
-      <About />
-      <Services />
-      <Tours />
-      <Footer /> */}
-      <Home />
-    </>
-  );
+  return <h4>comfy sloth starter</h4>
 }
 
-export default App;
+export default App
