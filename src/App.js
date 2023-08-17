@@ -5,16 +5,18 @@ import About from "./components/About";
 import Tours from "./components/Tours";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
+import Home from "./components/Home";
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <About />
       <Services />
       <Tours />
-      <Footer />
+      <Footer /> */}
+      <Home />
     </>
   );
 }
