@@ -14,7 +14,7 @@ const Sidebar = () => {
     <SidebarContainer>
       <aside className={isOpen ? "sidebar show-sidebar" : "sidebar"}>
         <div className="sidebar-header">
-          <img src={logo} className="logo" alt="confy sloth" />
+          <img src={logo} className="logo" alt="comfy sloth" />
           <button className="close-btn" type="button">
             <FaTimes />
           </button>
